@@ -1,6 +1,5 @@
 from sqlalchemy import Column
 from lib.models.model_base import ModelBase
-from lib.models.model_base import ModelBase
 import sqlalchemy.dialects.postgresql as pg
 
 class Physician(ModelBase):
